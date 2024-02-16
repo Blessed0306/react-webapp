@@ -1,0 +1,124 @@
+.podcastOuter{
+    /*background-color: #bab7ff;*/
+    width: 100%;
+    /*height: 84vh;*/ /*500px;*/
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    padding-top: 19px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+
+button {
+    margin-top: 1rem;
+    border-radius: 25px;
+    display: inline;
+    width: 30%;
+    background-color: #0CABA8;
+}
+
+.input-icon {
+    margin-left: 40px;
+    margin-right: 10px;
+    color: white;
+    padding: 0%;
+    size: 80%;
+}
+
+.main_card {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    width: 90%;
+    height: 86.9vh;
+    overflow-y: scroll;
+    position: absolute;
+    bottom: 0%;
+    top: 4%;
+}
+
+.profilePic{
+    /* width: 70%;
+    height:40%; */
+    width: 160px;
+    height: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    size: 80%;
+}
+
+.podcastTitle{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-top: 17px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.podcastDescription{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    overflow-wrap: break-word;
+}
+
+.podcastCreator{
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 15px;
+    /* margin-bottom: 2.5%; */
+    margin-bottom: 20px;
+}
+
+.likes {
+    background-color: transparent;
+    color: white;
+}
+
+.likes.active {
+    color: red;
+    transition: 0ms;
+}
+
+.truth{
+    color: pink;
+}
+.false{
+    color: yellow;
+}
+
+.comment-outer{
+    margin-top: 40px;
+}
+
+.like-outer {
+    padding: 0px;
+    margin: 0px;
+}
+
+.like-inner{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+button.like-button{
+    margin: 0;
+    width: 100%;
+    border-radius: 0px;
+    padding: 0;
+    background-color: transparent;
+}
+
+.like-text{
+    margin-top: 2px;
+    color: white;
+    margin-left: 1px;
+}

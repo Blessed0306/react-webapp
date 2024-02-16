@@ -1,0 +1,131 @@
+/* search bar */
+
+.search-bar {
+    background-color: #023535;
+    height: 60px;
+    display: flex;
+    color: black;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.search-bar-outer {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    padding: 0;
+    margin-bottom: auto;
+}
+
+.search-bar-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 12px;
+    border-bottom: 2px solid black;
+}
+
+.search-input {
+    margin-top: 17px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+.search-icon {
+    margin-top: 10px;
+    font-size: 30px;
+    margin-right: 0;
+}
+
+input[type='text'] {
+    font-size: 18px;
+    background-color: transparent;
+    width: 90%;
+}
+
+.search-button-icon {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0;
+}
+
+button.search-back-button{
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: transparent;
+}
+
+button.search-button{
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 50px;
+    background-color: transparent;
+}
+
+.default-message{
+    margin-left: 5px;
+}
+
+.search-back-button-outer{
+    margin: 0;
+    padding: 0;
+}
+
+.button-back{
+    color: white;
+    font-size: 32;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 8px;
+}
+
+/* Chats */
+
+.chat-list {
+    top:60px;
+    position: relative;
+    overflow-y: scroll;
+    width: 100%;
+    height: 550px;
+}
+
+.chat-list-inner{
+    overflow-y: scroll;
+}
+
+.chat-outer{
+    margin-top: 2px;
+    margin-left: 40px;
+    height: 70px;
+    margin-right: 40px;
+}
+
+.chat-inner{
+    display: flex;
+    flex-wrap: nowrap;    
+    border-radius: 25px;
+    border: 2px solid #023535;
+}
+
+.chat-pf-img {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.chat-username {
+    margin-top: auto;
+    margin-bottom: auto;
+}
